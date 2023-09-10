@@ -1,0 +1,42 @@
+.container {
+    margin-bottom: 12.5rem;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contents div {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  }
+  .container img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+  .container p{
+    margin: 0;
+  }
+
+  @media screen and (max-width: 48rem) {
+    .container h2 {
+      font-size: 1.7rem;
+    }
+    .container p{
+      font-size: 1.125rem;
+    }
+    .container img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .container div {
+      align-items: flex-start;
+    }
+  }

@@ -1,0 +1,30 @@
+.container {
+    margin-bottom: 200px;
+  }
+
+.container h2 {
+    font-size: 2rem;
+}
+
+.find_contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    box-shadow: 5px 5px 15px rgba(146, 146, 146, 0.25);
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 48rem) {
+    .container h2 {
+        font-size: 1.7rem;
+    }
+  }

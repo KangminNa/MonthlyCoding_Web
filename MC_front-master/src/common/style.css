@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FFFFFF;
+    height: 100vh;
+    margin: 0px;
+}
+
+#page {
+    width: auto;
+    height: 3100px;
+    justify-content: flex-start;
+}
+
+main {
+    height: 100vh;
+}

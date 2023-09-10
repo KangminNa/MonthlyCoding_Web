@@ -1,0 +1,17 @@
+.h2 {
+    font-size: 2rem;
+}
+.introduce_box {
+    overflow: scroll;
+    white-space: nowrap;
+    margin-bottom: 12.5rem;
+}
+.personal_box{
+    display: inline-flex;
+    gap: 30px;
+}
+@media screen and (max-width:  48rem){
+    .h2{
+        font-size: 1.7rem;
+    }
+}

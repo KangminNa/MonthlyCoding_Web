@@ -1,0 +1,15 @@
+/*전체 main 중앙정렬*/
+.container {
+  margin: 0 auto;
+  max-width: 920px;
+}
+/*main이 가지고 있는 컴포넌트*/
+.main {
+  max-width: 920px;
+}
+
+@media screen and (max-width: 48rem) {
+  .main {
+    padding: 0 30px;
+  }
+}
