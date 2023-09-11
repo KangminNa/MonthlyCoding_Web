@@ -8,12 +8,17 @@ const KEYWORD_DATA = [
   "주1회",
   "결과보다는경험:)",
   "Android",
-  "웹 프론트엔드",
+  "프론트엔드",
   "백엔드",
   "ios",
   "백엔드",
   "리눅스",
   "도커",
+  "Flutter",
+  "React",
+  "Spring",
+  "Django",
+  
 ];
 
 function Keyword() {

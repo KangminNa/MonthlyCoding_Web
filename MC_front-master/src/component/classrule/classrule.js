@@ -10,6 +10,7 @@ const CLASSRULE_DATA = [
     img: star,
     alt: "별",
     contents: "매달 첫째주, 같이 목표정하기!",
+    sub_content: "매 달 첫번째 주에 같이 함께할 사이드 프로젝트를 정하니다."
   },
   {
     img: time,
@@ -30,21 +31,22 @@ const CLASSRULE_DATA = [
 ];
 
 function Classrule() { 
-    return (
-      <div className={style.container}>
-        <h2>모임규칙</h2>
-        <div className={style.contents}>
-          {CLASSRULE_DATA.map((data) => {
-            return (
-              <div>
-                <img src={data.img} alt={data.alt} />
-                <p> &nbsp; {data.contents}</p>
-              </div>
-            );
-          })}
-        </div>
+  return (
+    <div className={style.container}>
+      <h2>모임규칙</h2>
+      <div className={style.contents}>
+        {CLASSRULE_DATA.map((data) => {
+          return (
+            <div>
+              <img src={data.img} alt={data.alt}/>
+              <h4>&nbsp; {data.contents}</h4>
+            </div>
+          );
+        })}
       </div>
-    );
+    </div>
+  );
 }
+
 
 export default Classrule;

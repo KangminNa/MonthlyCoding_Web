@@ -24,6 +24,12 @@
   .container p{
     margin: 0;
   }
+  .style.lineBreak {
+    white-space: pre-line;
+  }
+
+  
+  
 
   @media screen and (max-width: 48rem) {
     .container h2 {

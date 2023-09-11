@@ -3,7 +3,7 @@ import style from './personal.module.css';
 const INTRODUCE_DATA = [
     {
         name: "정한솔",
-        job: "Android-Native",
+        job: "대장",
         stack: ["Kotlin","Java","React","Android","Git"]
     },
     {
@@ -18,22 +18,22 @@ const INTRODUCE_DATA = [
     },
     {
         name: "문상현",
-        job: "Android-Native",
+        job: "Android-Native(장인)",
         stack: ["Kotlin", "Git", "Java", "Firebase", "Android"]
     },
     {
         name: "나강민",
-        job: "치어리더",
+        job: "치어리더(대학생)",
         stack: ["CI|CD", "Cubernetes", "Java", "Docker", "C", "Linux", "Kotlin", "Aos"]
     },
     {
         name: "김서우",
-        job: "웹 프론트엔드 취준생",
+        job: "웹 프론트엔드 개발자",
         stack: ["JS", "React", "RTK", "Redux", "Next.js", "Typescript"]
     },
     {
         name: "정민서",
-        job: "편입준비생",
+        job: "직장인",
         stack: ["토익900", "Aos", "java", "Jquery", "React"]
     },
 ]
