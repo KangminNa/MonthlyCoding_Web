@@ -18,6 +18,7 @@ const KEYWORD_DATA = [
   "React",
   "Spring",
   "Django",
+  "사이드프로젝트",
   
 ];
 
