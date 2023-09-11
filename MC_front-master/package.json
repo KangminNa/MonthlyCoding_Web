@@ -12,7 +12,7 @@
     "react-modal": "^3.16.1",
     "react-responsive": "^9.0.0",
     "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,5 +42,8 @@
     ]
   },
   "proxy": "http://localhost:8080",
-  "homepage": "https://kangminna.github.io/MonthlyCoding_Web//"
+  "homepage": "https://kangminna.github.io/MonthlyCoding_Web//",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
