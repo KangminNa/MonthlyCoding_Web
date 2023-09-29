@@ -19,7 +19,9 @@ const KEYWORD_DATA = [
   "Spring",
   "Django",
   "사이드프로젝트",
-  
+  "기획",
+  "디자인"
+
 ];
 
 function Keyword() {
@@ -27,9 +29,9 @@ function Keyword() {
     <div className={style.container}>
       <h2>모임 키워드</h2>
       <div className={style.keyword_box}>
-      {KEYWORD_DATA.map((data) => {
-        return <div className={style.keyword}><p># {data}</p></div>
-      })}
+        {KEYWORD_DATA.map((data) => {
+          return <div className={style.keyword}><p># {data}</p></div>
+        })}
       </div>
     </div>
   );

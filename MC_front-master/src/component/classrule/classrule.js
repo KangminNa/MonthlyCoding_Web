@@ -9,13 +9,13 @@ const CLASSRULE_DATA = [
   {
     img: star,
     alt: "별",
-    contents: "매달 첫째주, 같이 목표정하기!",
-    sub_content: "매 달 첫번째 주에 같이 함께할 사이드 프로젝트를 정하니다."
+    contents: "매달 같이 목표정하기!",
+    sub_content: "함께하고 싶은 사람과 하고싶었던 프로젝트를 이야기하고 함께 만들어 나갑니다!"
   },
   {
     img: time,
     alt: "시계",
-    contents: "매주 목요일(회의를 통해 시간 결정) / 2시간 (23:30~01:30)",
+    contents: "매주 회의 날짜와 시간을 결정해서 프로젝트를 만들어 나갑니다",
   },
   {
     img: trend,
@@ -30,7 +30,7 @@ const CLASSRULE_DATA = [
   },
 ];
 
-function Classrule() { 
+function Classrule() {
   return (
     <div className={style.container}>
       <h2>모임규칙</h2>
@@ -38,7 +38,7 @@ function Classrule() {
         {CLASSRULE_DATA.map((data) => {
           return (
             <div>
-              <img src={data.img} alt={data.alt}/>
+              <img src={data.img} alt={data.alt} />
               <h4>&nbsp; {data.contents}</h4>
             </div>
           );

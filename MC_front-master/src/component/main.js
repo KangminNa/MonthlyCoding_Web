@@ -3,7 +3,8 @@ import Title from './title/title';
 import Classrule from './classrule/classrule';
 import Find from './find/find';
 import Keyword from './keyword/keyword';
-import Team from './team/team';
+import ApplyComponent from './apply/apply';
+
 
 function Main() {
   return (
@@ -11,9 +12,9 @@ function Main() {
       <div className={style.main}>
         <Title />
         <Keyword />
-        <Team />
         <Classrule />
         <Find />
+        <ApplyComponent />
       </div>
     </div>
   );

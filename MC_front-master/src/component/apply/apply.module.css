@@ -1,0 +1,41 @@
+.main_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    /* 340px 대신에 50px로 수정 */
+    text-align: center;
+    /* 가운데 정렬을 위해 text-align 추가 */
+}
+
+.linkText {
+    color: #353535;
+    margin: 0;
+    font-size: 2rem;
+    /* 원하는 글자 크기로 조정 */
+    font-weight: 700;
+}
+
+.linkText:hover {
+    color: #01CACA;
+    text-decoration: underline;
+    /* 호버 상태에서 밑줄 표시 */
+}
+
+/* Mobile */
+@media screen and (max-width: 48rem) {
+    .linkText {
+        font-size: 1.8rem;
+        /* 모바일에서 글자 크기 조정 */
+    }
+}
+
+@media screen and (max-width: 26.563rem) {
+    .linkText {
+        font-size: 1.6rem;
+        /* 더 작은 화면에서 글자 크기 조정 */
+    }
+}

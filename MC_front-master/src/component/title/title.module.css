@@ -11,7 +11,7 @@
 #main_title p {
     color: #353535;
     margin: 0;
-    font-size: 6.25rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -22,15 +22,16 @@
 #main_title p span:last-child {
     color: #01CACA;
 }
+
 /* Mobile */
-@media screen and (max-width: 48rem){
+@media screen and (max-width: 48rem) {
     #main_title p {
-        font-size: 4.5rem;
-    }
-}
-@media screen and (max-width: 26.563rem){
-    #main_title p {
-        font-size: 3.75rem;
+        font-size: 5rem;
     }
 }
 
+@media screen and (max-width: 26.563rem) {
+    #main_title p {
+        font-size: 4rem;
+    }
+}

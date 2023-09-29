@@ -10,11 +10,11 @@ import f from './img/f.png';
 const FIND_DATA = [
   {
     img: a,
-    contents: "일주일에 2시간 투자",
+    contents: "사이드 프로젝트를 하고 싶은 분",
   },
   {
     img: b,
-    contents: "온라인 모임 추구",
+    contents: "디자인 및 기획을 해보고 싶은 분",
   },
   {
     img: c,
@@ -22,26 +22,26 @@ const FIND_DATA = [
   },
   {
     img: d,
-    contents: "다양한 코딩 프로젝트를 경험",
+    contents: "다양한 프로젝트를 경험",
   },
   {
     img: e,
-    contents: "여러 분야 사람과 협업",
+    contents: "여러 분야 사람과 협업 및 학습",
   },
   {
     img: f,
-    contents: "다양한 개발툴 경험",
+    contents: "포기하지 않고 꾸준히 나아가실 분!",
   },
 ];
 
 /**
  * 조건
  */
-export const Content = ({imgSrc, children}) => {
-    return <div className={style.content}>
-        <img src={imgSrc} alt='아이콘'/>
-        <span>&nbsp;{children}</span>
-        </div>
+export const Content = ({ imgSrc, children }) => {
+  return <div className={style.content}>
+    <img src={imgSrc} alt='아이콘' />
+    <span>&nbsp;{children}</span>
+  </div>
 }
 
 function Find() {

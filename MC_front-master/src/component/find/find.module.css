@@ -1,6 +1,6 @@
 .container {
     margin-bottom: 200px;
-  }
+}
 
 .container h2 {
     font-size: 2rem;
@@ -25,6 +25,6 @@
 
 @media screen and (max-width: 48rem) {
     .container h2 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
-  }
+}
