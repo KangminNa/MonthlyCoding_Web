@@ -4,6 +4,7 @@ import Classrule from './classrule/classrule';
 import Find from './find/find';
 import Keyword from './keyword/keyword';
 import ApplyComponent from './apply/apply';
+import WeAre from './weare/weare';
 
 
 function Main() {
@@ -11,6 +12,7 @@ function Main() {
     <div className={style.container}>
       <div className={style.main}>
         <Title />
+        <WeAre />
         <Keyword />
         <Classrule />
         <Find />

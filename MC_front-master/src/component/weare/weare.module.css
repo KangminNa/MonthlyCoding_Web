@@ -1,0 +1,52 @@
+/* weare.module.css */
+
+.weAre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 340px;
+    text-align: center;
+}
+
+.weAre h3 {
+    text-align: center;
+    /* <h3> 태그 가운데 정렬로 변경 */
+    font-size: 1.3rem;
+    /* 원하는 크기로 조절 */
+}
+
+.weAre p {
+    color: #353535;
+    margin-bottom: 3;
+    font-size: 1rem;
+    /* <p> 태그의 글꼴 크기 조정 */
+    font-weight: 700;
+    text-align: center;
+    /* <p> 태그 가운데 정렬로 변경 */
+}
+
+.weAre p span:first-child {
+    color: #6DD918;
+}
+
+.weAre p span:last-child {
+    color: #01CACA;
+}
+
+/* Mobile */
+@media screen and (max-width: 48rem) {
+    .weAre p {
+        font-size: 0.9rem;
+        /* 모바일에서 <p> 태그의 글꼴 크기 조정 */
+    }
+}
+
+@media screen and (max-width: 26.563rem) {
+    .weAre p {
+        font-size: 0.9rem;
+        /* 모바일에서 <p> 태그의 글꼴 크기 조정 */
+    }
+}
